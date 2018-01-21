@@ -30,7 +30,7 @@
      margin-left: 80px;
      /*margin-right:auto;*/
      top: 70px;
-     box-shadow: 0 14px 8px 0 rgba(0, 0, 0, 0.2),0 -6px 15px 0 rgba(0, 0, 0, 0.19);
+     box-shadow: 0 14px 8px 0 rgba(146, 141, 141, 0.2),0 -6px 15px 0 rgba(128, 124, 124, 0.19);
      
  }
  .title{
@@ -42,6 +42,7 @@
  }
  h3{
      font-weight: 900;
+     font-size:25px;
      
  }
  .available{
@@ -62,4 +63,17 @@
  .pro p,
  .desc{
      margin-left: 15px;
+ }
+.pro p,
+ .spe p{
+     font-weight: 900;
+ }
+ span{
+     font-style: italic;
+ }
+ .spe p{
+     font-size: 20px;
+ }
+ header p:first-of-type{
+     font-size: 25px;
  }
